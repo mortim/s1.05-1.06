@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>ZONE COVOITURAGE</title>
+        <link rel="icon" href="./images/logo/logo1.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./css/all.css" />
+        <link rel="stylesheet" href="./css/header.css"/>
+		<link rel="stylesheet" href="./css/nav.css"/>
+        <link rel="stylesheet" href="./css/rechercher-trajet.css"/>
+        <link rel="stylesheet" href="./css/footer.css" />
+    </head>
+    <body>
+        <header>
+        <a id="logo_header" href="./index.html"><img src="./images/logo/logo2.png" alt="Ubisoft_Logo" width="150" height="50"></a>
+		</header>
+		<nav>
+			<table>
+				<tr>
+					<th>
+					</th>
+					<td>
+						<p><a href="./index.html">ACCUEIL</a></p>
+					</td>
+					<td>
+						<p><a href="./connexion.html">MON ESPACE</a></p>
+					</td>
+					<td>
+						<p><a href="./proposer-trajet.html">PROPOSER TRAJET</a></p>
+					</td>
+					<td>
+						<p><a href="./rechercher-un-trajet.html">RECHERCHER TRAJET</a></p>
+					</td>
+					<td>
+						<p><a href="./proposer-moyen-transport.html">PROPOSER LOCATION</a></p>
+						</td>
+					<td>
+						<p><a href="./menu-reservation.html">LOUER VÉHICULE</a></p>
+					</td>
+					<th>
+					</th>
+					<th>
+					</th>
+					<th>
+					</th>
+				</tr>
+			</table>
+		</nav>
+    
+
+    <div class="container">
+
+            <h1>Zone de covoiturage</h1>
+
+            <h3>Ici, vous retrouverez toutes les zones dans lesquelles les services de covoiturage sont proposés par Ubisoft</h3>
+            
+            <img src="./images/map.png" width="1000" height="500" style="margin-top:20px;" />
+
+            <br>
+            <br>
+
+            <p>Vous pouvez ajouter votre propre zone de covoiturage juste en dessous:</p>
+
+            <br>
+            
+            <form id="flex-contact-form-1" action="./validation_zone_covoiturage.html">
+                <div class="form-elem-1">
+                    <label>Nom</label><br>
+                    <input type="text" placeholder="Entrez votre nom">
+                </div>
+    
+                <div class="form-elem-1">
+                    <label>Prénom</label><br>
+                    <input type="text" placeholder="Entrez votre prénom">
+                </div>
+
+                <div class="form-elem-1">
+                    <label>Choisir une date</label><br>
+                    <input type="date">
+                </div>
+    
+                <div class="form-elem-1">
+                    <label>Emplacement de la zone de covoiturage</label><br>
+                    <input type="text" placeholder="Adresse">
+                </div>
+
+                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=3.8760709762573247%2C43.60292559027619%2C3.9477396011352544%2C43.62868255350057&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=15/43.6158/3.9119&amp;layers=N">View Larger Map</a></small>
+
+                <p>(Visualisez la carte en plus grand pour consulter les adresses de toutes les zones de covoiturage)</p>
+                
+
+                <div id="button-trajet">
+                    <a href="#"><button>Valider</button></a>
+                </div>
+            </form>
+
+    </div>
+
+    <footer>
+        <div id="flex-footer-1">
+            <div id="footer-links">
+                <p>&copy; Ubisoft Service 2022</p>
+                <p><a href="https://www.ubisoft.com/fr-fr/">Ubisoft Accueil</a></p>
+                <p><a href="./condition.html">Conditions d'Utilisation</a></p>
+            </div>
+        </div>
+
+        <div id="flex-footer-2">
+            <h2 id="contact-title">Nous contacter</h2>
+            <div>
+                <form id="flex-contact-form" action="./validation_formulaire.html">
+                    <div class="form-elem">
+                        <label>Nom</label><br>
+                        <input type="text" placeholder="Entrez votre nom">
+                    </div>
+    
+                    <div class="form-elem">
+                        <label>E-mail</label><br>
+                        <input type="email" placeholder="Entrez votre email">
+                    </div>
+    
+                    <div class="form-elem">
+                        <label>Message</label><br>
+                        <textarea placeholder="Entrez votre message" id="textarea-form-contact"></textarea>
+                    </div>
+                    
+                    <div class="form-elem">
+                        <button>Valider</button>
+                    </div>
+                </form>
+        </div>
+    </footer>
+    </body>
+</html>

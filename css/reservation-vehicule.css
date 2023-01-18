@@ -1,0 +1,70 @@
+section>label{
+    margin-left:3%;
+    margin-right:3%;
+}
+
+section{
+    text-align:center;
+}
+
+section>h1{
+    text-align:left;
+    margin-bottom:40px;
+    margin-top:15px;
+}
+
+section table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:20px;
+    margin-bottom:60px;
+    table-layout:fixed;
+}
+
+section input{
+    text-align:center;
+	border:2px solid #222222;
+	background-color:white;
+	border-radius:1rem;
+	font-size:19px;
+	margin-bottom:15px;
+}
+
+
+section td{
+    margin:0px;
+    border:0px;
+    padding:20px;
+    text-align:center;
+    font-weight:bold;
+}
+section tr:nth-child(odd){
+    background:linear-gradient(to bottom right, blue, pink);
+    color:white;
+    border:solid;
+}
+
+section tr:nth-child(even){
+    background-color:white;
+    color:black;
+}
+
+#style-payement{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 180px;
+  color:#1010d7;
+  background-color:white;
+  font-weight:bold;
+  border: 3px solid black;
+  border-radius: 2.5rem;
+  width:110px;
+  margin-bottom:60px;
+  text-decoration:none;
+}
+
+#style-payement:hover {
+    transition:0.5s;
+    cursor:pointer;
+    background-color: #1010d7;
+    color:white;

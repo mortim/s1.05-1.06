@@ -1,0 +1,238 @@
+section>label{
+    margin-left:3%;
+    margin-right:3%;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+section{
+    text-align:center;
+}
+
+section>h1{
+    text-align:left;
+    margin-bottom:40px;
+    margin-top:15px;
+}
+
+section table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:40px;
+    margin-bottom:60px;
+    table-layout:fixed;
+}
+
+input{
+    text-align:center;
+	border:2px solid #222222;
+	background-color:white;
+	border-radius:1rem;
+	padding:0px 10px;
+	font-size:19px;
+}
+
+table#prix td{
+    font-size:24px;
+}
+
+table#prix p{
+    font-size:20px;
+}
+
+
+section td{
+    margin:0px;
+    border:0px;
+    padding:35px;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+}
+tr:nth-child(odd){
+    background-color:white;
+    color:black;
+}
+
+tr:nth-child(even){
+    background-color:white;
+    color:black;
+}
+
+.velo{
+    visibility: collapse;
+    background: #ddd;
+}
+
+.skate{
+    visibility: collapse;
+    background: #ddd;
+}
+
+.roller{
+    visibility: collapse;
+    background: #ddd;
+}
+
+.trotinette{
+    visibility: collapse;
+    background: #ddd;
+}
+
+#style-trotinette{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 80px;
+  background-color: white;
+  color:#222222;
+  font-weight:bold;
+  border: 3px solid;
+  border-radius: 1.5rem;
+  width:110px;
+  transition:0.5s;
+}
+#style-velo{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 80px;
+  background-color: white;
+  color:#222222;
+  font-weight:bold;
+  border: 3px solid;
+  border-radius: 1.5rem;
+  width:110px;
+  transition:0.5s;
+} 
+#style-skate{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 80px;
+  background-color: white;
+  color:#222222;
+  font-weight:bold;
+  border: 3px solid;
+  border-radius: 1.5rem;
+  width:110px;
+  transition:0.5s;
+} 
+#style-roller{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 80px;
+  background-color: white;
+  color:#222222;
+  font-weight:bold;
+  border: 3px solid;
+  border-radius: 1.5rem;
+  width:110px;
+  transition:0.5s;
+} 
+
+#style-trotinette:hover {
+  cursor: pointer;
+  background-color: #222222;
+  color:lightgreen;
+  border-color:#222222;
+}
+#style-velo:hover {
+  cursor: pointer;
+  background-color: #222222;
+  color:lightgreen;
+  border-color:#222222;
+}
+#style-skate:hover {
+  cursor: pointer;
+  background-color: #222222;
+  color:lightgreen;
+  border-color:#222222;
+}
+#style-roller:hover {
+  cursor: pointer;
+  background-color: #222222;
+  color:lightgreen;
+  border-color:#222222;
+}
+
+
+#expand-trotinette {
+  display: none;
+}
+#expand-velo {
+  display: none;
+}
+#expand-skate {
+  display: none;
+}
+#expand-roller {
+  display: none;
+}
+
+
+.trotinette {
+  visibility: collapse;
+}
+.velo {
+  visibility: collapse;
+}
+.skate {
+  visibility: collapse;
+}
+.roller {
+  visibility: collapse;
+}
+
+#expand-trotinette:checked ~ * .trotinette {
+  visibility: visible;
+}
+#expand-velo:checked ~ * .velo {
+  visibility: visible;
+}
+#expand-skate:checked ~ * .skate {
+  visibility: visible;
+}
+#expand-roller:checked ~ * .roller {
+  visibility: visible;
+}
+
+#expand-trotinette:checked ~ #style-trotinette {
+  background-color: lightgreen;
+  color:#222222;
+  border-color:#222222;
+}
+#expand-velo:checked ~ #style-velo {
+  background-color: lightgreen;
+  color:#222222;
+  border-color:#222222;
+}
+#expand-skate:checked ~ #style-skate {
+  background-color: lightgreen;
+  color:#222222;
+  border-color:#222222;
+}
+#expand-roller:checked ~ #style-roller {
+  background-color: lightgreen;
+  color:#222222;
+  border-color:#222222;
+}
+
+#style-comfirmer{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 180px;
+  color:#222222;
+  background-color:white;
+  font-weight:bold;
+  border: 3px solid black;
+  border-radius: 2.5rem;
+  width:220px;
+  margin-bottom:60px;
+  text-decoration:none;
+}
+
+#style-comfirmer:hover {
+    transition:0.5s;
+    cursor:pointer;
+    color:green;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>PROPOSER TRAJET</title>
+        <link rel="icon" href="./images/logo/logo1.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./css/all.css" />
+        <link rel="stylesheet" href="./css/header.css"/>
+		<link rel="stylesheet" href="./css/nav.css"/>
+        <link rel="stylesheet" href="./css/trajet.css"/>
+        <link rel="stylesheet" href="./css/footer.css" />
+    </head>
+    <body>
+        <header>
+        <a id="logo_header" href="./index.html"><img src="./images/logo/logo2.png" alt="Ubisoft_Logo" width="150" height="50"></a>
+		</header>
+		<nav>
+			<table>
+				<tr>
+					<th>
+					</th>
+					<td>
+						<p><a href="./index.html">ACCUEIL</a></p>
+					</td>
+					<td>
+						<p><a href="./connexion.html">MON ESPACE</a></p>
+					</td>
+					<td>
+						<p><a href="./proposer-trajet.html">PROPOSER TRAJET</a></p>
+					</td>
+					<td>
+						<p><a href="./rechercher-un-trajet.html">RECHERCHER TRAJET</a></p>
+					</td>
+					<td>
+						<p><a href="./proposer-moyen-transport.html">PROPOSER LOCATION</a></p>
+						</td>
+					<td>
+						<p><a href="./menu-reservation.html">LOUER VÉHICULE</a></p>
+					</td>
+					<th>
+					</th>
+					<th>
+					</th>
+					<th>
+					</th>
+				</tr>
+			</table>
+		</nav>
+        <section class="container" style="padding-left: 200px;padding-right: 200px;padding-top: 20px;">
+            <h1 style="text-align:center; font-size:26px;">PROPOSER TRAJET</h1>
+            
+            <h2 style="margin-top:35px;margin-bottom:10px;">Quel est vôtre destination ?</h2>
+			<input class="saisie" type="text" placeholder="Entrez votre point de départ"><input class="saisie" type="text" placeholder="Entrez votre point d'arriver">
+			<br/><br/>
+			<iframe scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=3.9073669910430913%2C43.62130069184638%2C3.9144480228424077%2C43.624500515933235&amp;layer=mapnik" style="border: 1px solid black" width="425" height="350" frameborder="0"></iframe><br><small><a href="https://www.openstreetmap.org/#map=18/43.62290/3.91091">Afficher une carte plus grande</a></small>
+			<p>Vous pouvez consulter toutes les zones de covoiturage juste <a href="./zone_covoiturage.html">ici</a></p>
+			<h2 style="margin-top:45px;">Par où passer vous ?</h2>
+			<h3 style="margin-bottom:20px;">(citer les noms de Parking de coovoiturage par lesquels vous allez passer , minimum 1)</h3>
+			<div>
+			<input class="saisie" type="text" placeholder="Entrez votre point de passage 1">
+			<br/>
+			<input class="saisie" type="text" placeholder="Entrez votre point de passage 2 (optionnel)">
+			<br/>
+			<input class="saisie" type="text" placeholder="Entrez votre point de passage 3 (optionnel)">
+			<br/>
+			<input class="saisie" type="text" placeholder="Entrez votre point de passage 4 (optionnel)">
+			</div>
+			<h2 style="margin-top:45px;margin-bottom:10px;">Nombre de place disponible dans votre véhicule lors de ce trajet ?</h2>
+			<div style="margin-bottom:60px;">
+            <input style="padding-left:25px; padding-right:5px;" type="number" value="0" min="0" max="6" size="1">
+            </div>
+            <h2 style="margin-top:45px;margin-bottom:10px;">Prix de la place ?</h2>
+            <h3 style="margin-bottom:20px;">(mettre 0 si vous souhaiter que le voyage soit gratuit pour les usager)</h3>
+			<div style="margin-bottom:40px;">
+            <input style="padding-left:25px; padding-right:5px;" type="number" value="0" min="0" max="6" size="1"><p style="margin-left:750px;text-align:left;font-size:29px;position:relative;bottom:52px;left:52px;">€</p>
+            </div>
+			<a href="./confirmation.html" id="style-comfirmer" >COMFIRMER LA MISE À DISPOSITION DES MOYENS DE TRANSPORT</a>
+				
+           </section>
+        <footer>
+            <div id="flex-footer-1">
+                <div id="footer-links">
+                    <p>&copy; Ubisoft Service 2022</p>
+                    <p><a href="https://www.ubisoft.com/fr-fr/">Ubisoft Accueil</a></p>
+                    <p><a href="./condition.html">Conditions d'Utilisation</a></p>
+                </div>
+            </div>
+
+        <div id="flex-footer-2">
+            <h2 id="contact-title">Nous contacter</h2>
+            <div>
+                <form id="flex-contact-form" action="./validation_formulaire.html">
+                    <div class="form-elem">
+                        <label>Nom</label><br>
+                        <input type="text" placeholder="Entrez votre nom">
+                    </div>
+    
+                    <div class="form-elem">
+                        <label>E-mail</label><br>
+                        <input type="email" placeholder="Entrez votre email">
+                    </div>
+    
+                    <div class="form-elem">
+                        <label>Message</label><br>
+                        <textarea placeholder="Entrez votre message" id="textarea-form-contact"></textarea>
+                    </div>
+                    
+                    <div class="form-elem">
+                        <button>Valider</button>
+                    </div>
+                </form>
+        </div>
+    </footer>
+    </body>
+</html>

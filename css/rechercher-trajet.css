@@ -1,0 +1,145 @@
+#adress {
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+#adress span {
+    font-weight: bold;
+}
+
+#text-1 {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size:20px;
+}
+
+div.centre{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+
+div p{
+    font-size:18px;
+}
+
+section{
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+section table{
+    width:75%;
+    margin-top: 10px;
+    border: none;
+    border-collapse: collapse;
+    table-layout:fixed;
+    line-height: 2;
+    font-size:17px;
+}
+
+section tr:nth-child(odd){
+    background-color:#222222;
+    color:white;
+    border:solid;
+}
+
+section tr:nth-child(even){
+    background-color:white;
+    color:black;
+}
+
+section td  {
+    margin:0px;
+    border:0px;
+    text-align:center;
+    font-weight:bold;
+}
+
+#flex-contact-form-1 .form-elem-1 input, #flex-contact-form-1 .form-elem-1 textarea {
+    border: 0;
+    padding: .6180469716em;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+}
+
+#flex-contact-form-1 {
+    margin: 20px 0px;
+    display:flex;
+    flex-direction:column;
+}
+
+#flex-contact-form-1>div {
+    display:flex;
+    justify-content:center;
+    margin:10px 0px;
+    text-align:center;
+}
+
+iframe {
+    margin-top: 10px;
+    margin-left:250px;
+}
+
+#flex-contact-form-1 .form-elem-1 input::placeholder {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
+    font-size: 14px;
+}
+
+#flex-contact-form-1 .form-elem-1 textarea {
+    width: 400px;
+}
+
+#flex-contact-form-1 .form-elem-1 button {
+    border: 0;
+    background-color: #fff;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: .6180469716em 1.41575em;
+    margin-top: 5px;
+}
+
+section.container input{
+    color:black;
+    background-color:white;
+    border:3px solid #222222;
+    border-radius:2.5rem;
+    padding:10px;
+    width:175px;
+}
+
+.style-bouton{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 20px 125px;
+  background-color: #222222;
+  margin-right:2%;
+  margin-left:2%;
+  color:white;
+  font-weight:bold;
+  border: 3px solid;
+  border-color:#222222;
+  border-radius: 2.5rem;
+  width:200px;
+  margin-bottom:60px;
+  text-decoration:none;
+  text-align:center;
+}
+
+.style-bouton:hover {
+    cursor:pointer;
+    color: #222222;
+    background-color: white;
+    transition:0.5s;
+}
+
+section.container{
+    display:flex;
+    flex-direction:column;
+    content:center;
+    text-align:center;
+}
+
+

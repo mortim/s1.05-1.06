@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 20px;
+}

@@ -1,0 +1,247 @@
+section>label{
+    margin-left:3%;
+    margin-right:3%;
+}
+
+section{
+    text-align:center;
+}
+
+section input{
+    text-align:center;
+    border:2px solid #222222;
+	background-color:white;
+	border-radius:1rem;
+	font-size:19px;
+}
+
+select{
+    text-align:center;
+    border:2px solid #222222;
+	background-color:white;
+	border-radius:1rem;
+	padding-left:5px;
+	font-size:16px;
+}
+
+section>h1{
+    text-align:left;
+    margin-bottom:40px;
+    margin-top:15px;
+}
+
+section table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:40px;
+    margin-bottom:60px;
+    table-layout:fixed;
+}
+
+
+section td{
+    margin:0px;
+    border:0px;
+    padding:20px;
+    text-align:center;
+    font-weight:bold;
+}
+section tr:nth-child(odd){
+    background:linear-gradient(to bottom right, blue, pink);
+    color:white;
+    border:solid;
+}
+
+section tr:nth-child(even){
+    background-color:white;
+    color:black;
+}
+
+.velo{
+    visibility: collapse;
+    background: #ddd;
+    opacity: 0;
+    transition: visibility 0s linear 500ms, opacity 500ms;
+}
+
+.skate{
+    visibility: collapse;
+    background: #ddd;
+    opacity: 0;
+    transition: visibility 0s linear 500ms, opacity 500ms;
+}
+
+.roller{
+    visibility: collapse;
+    background: #ddd;
+    opacity: 0;
+    transition: visibility 0s linear 500ms, opacity 500ms;
+}
+
+.trotinette{
+    visibility: collapse;
+    background: #ddd;
+    opacity: 0;
+    transition: visibility 0s linear 500ms, opacity 500ms;
+}
+
+#style-trotinette{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 80px;
+  background-color: #222222;
+  color:white;
+  font-weight:bold;
+  border: 3px solid #222222;
+  border-radius: 1.5rem;
+  width:110px;
+}
+#style-velo{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 80px;
+  background-color: #222222;
+  color:white;
+  font-weight:bold;
+  border: 3px solid #222222;
+  border-radius: 1.5rem;
+  width:110px;
+} 
+#style-skate{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 80px;
+  background-color: #222222;
+  color:white;
+  font-weight:bold;
+  border: 3px solid #222222;
+  border-radius: 1.5rem;
+  width:110px;
+} 
+#style-roller{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 80px;
+  background-color: #222222;
+  color:white;
+  font-weight:bold;
+  border: 3px solid #222222;
+  border-radius: 1.5rem;
+  width:110px;
+} 
+
+#style-trotinette:hover {
+  cursor: pointer;
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+#style-velo:hover {
+  cursor: pointer;
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+#style-skate:hover {
+  cursor: pointer;
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+#style-roller:hover {
+  cursor: pointer;
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+
+
+#expand-trotinette {
+  display: none;
+}
+#expand-velo {
+  display: none;
+}
+#expand-skate {
+  display: none;
+}
+#expand-roller {
+  display: none;
+}
+
+
+.trotinette {
+  visibility: collapse;
+}
+.velo {
+  visibility: collapse;
+}
+.skate {
+  visibility: collapse;
+}
+.roller {
+  visibility: collapse;
+}
+
+#expand-trotinette:checked ~ * .trotinette {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+#expand-velo:checked ~ * .velo {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+#expand-skate:checked ~ * .skate {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+#expand-roller:checked ~ * .roller {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+
+#expand-trotinette:checked ~ #style-trotinette {
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+#expand-velo:checked ~ #style-velo {
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+#expand-skate:checked ~ #style-skate {
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+#expand-roller:checked ~ #style-roller {
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+
+#style-payement{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 17px 180px;
+  color:#1010d7;
+  background-color:white;
+  font-weight:bold;
+  border: 3px solid black;
+  border-radius: 2.5rem;
+  width:110px;
+  margin-bottom:60px;
+  text-decoration:none;
+}
+
+#style-payement:hover {
+    transition:0.5s;
+    cursor:pointer;
+    background-color: #1010d7;
+    color:white;
+}

@@ -1,0 +1,120 @@
+section>label{
+    margin-left:3%;
+    margin-right:3%;
+}
+
+section>div{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+
+section{
+    text-align:center;
+}
+
+section>h1{
+    text-align:left;
+    margin-bottom:40px;
+    margin-top:15px;
+}
+
+section table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:40px;
+    margin-bottom:60px;
+    table-layout:fixed;
+}
+
+
+section td{
+    margin:0px;
+    border:0px;
+    padding:20px;
+    text-align:center;
+    font-weight:bold;
+}
+section tr:nth-child(1){
+    background-color:#222222;
+    color:white;
+    border:solid;
+}
+
+section tr{
+    background-color:white;
+    color:#222222;
+}
+
+section tr:nth-child(6){
+    background:linear-gradient(to bottom right, blue, pink);
+    color:white;
+    border:solid;
+}
+
+#style-redirection{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 20px 125px;
+  background-color: #222222;
+  margin-right:2%;
+  margin-left:2%;
+  color:white;
+  font-weight:bold;
+  border: 3px solid;
+  border-color:#222222;
+  border-radius: 2.5rem;
+  width:200px;
+  margin-bottom:60px;
+  text-decoration:none;
+  text-align:center;
+}
+
+#style-redirection:hover {
+    cursor:pointer;
+}
+
+#style-paypal{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 20px 125px;
+  background-color: #222222;
+  margin-right:2%;
+  margin-left:2%;
+  color:white;
+  font-weight:bold;
+  border: 3px solid;
+  border-color:#222222;
+  border-radius: 2.5rem;
+  width:200px;
+  margin-bottom:60px;
+  text-decoration:none;
+  text-align:center;
+}
+
+#style-paypal:hover {
+    cursor:pointer;
+}
+
+#style-carte{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 20px 125px;
+  background-color: #222222;
+  margin-right:2%;
+  margin-left:2%;
+  color:white;
+  font-weight:bold;
+  border: 3px solid;
+  border-color:#222222;
+  border-radius: 2.5rem;
+  width:200px;
+  margin-bottom:60px;
+  text-decoration:none;
+  text-align:center;
+}
+
+#style-carte:hover {
+    cursor:pointer;
+}

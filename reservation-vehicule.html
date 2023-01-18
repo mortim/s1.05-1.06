@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>RESEVATION</title>
+        <link rel="icon" href="./images/logo/logo1.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./css/all.css" />
+        <link rel="stylesheet" href="./css/header.css"/>
+		<link rel="stylesheet" href="./css/nav.css"/>
+        <link rel="stylesheet" href="./css/reservation-vehicule.css"/>
+        <link rel="stylesheet" href="./css/footer.css" />
+    </head>
+    <body>
+        <header>
+        <a id="logo_header" href="./index.html"><img src="./images/logo/logo2.png" alt="Ubisoft_Logo" width="150" height="50"></a>
+		</header>
+		<nav>
+			<table>
+				<tr>
+					<th>
+					</th>
+					<td>
+						<p><a href="./index.html">ACCUEIL</a></p>
+					</td>
+					<td>
+						<p><a href="./connexion.html">MON ESPACE</a></p>
+					</td>
+					<td>
+						<p><a href="./proposer-trajet.html">PROPOSER TRAJET</a></p>
+					</td>
+					<td>
+						<p><a href="./rechercher-un-trajet.html">RECHERCHER TRAJET</a></p>
+					</td>
+					<td>
+						<p><a href="./proposer-moyen-transport.html">PROPOSER LOCATION</a></p>
+						</td>
+					<td>
+						<p><a href="./menu-reservation.html">LOUER VÉHICULE</a></p>
+					</td>
+					<th>
+					</th>
+					<th>
+					</th>
+					<th>
+					</th>
+				</tr>
+			</table>
+		</nav>
+        <section class="container" style="padding-left: 200px;padding-right: 200px;padding-top: 20px;margin-top: 0px;">
+            <h1>SERVICE DE RESERVATION D'UN VEHICULE EN AUTOPARTAGE</h1>
+            <h2 style="font-size:22px;">Traif Journalier de la semaine : 6€10</h2>
+            <p style="font-size:22px; font-weight:bold;margin-top:30px;">Semaine de location</p>
+			<input type="week" min="2022-W52" max="2023-W03" value="2022-W52" required />
+            <table>
+                <tr>
+                    <td style="color:white; background-color:#222222;">
+                    
+                    </td>
+                    <td style="color:white; background-color:#222222;">
+                    LUNDI
+                    </td>
+                    <td style="color:white; background-color:#222222;">
+                    MARDI
+                    </td>
+                    <td style="color:white; background-color:#222222;">
+                    MERCREDI
+                    </td>
+                    <td style="color:white; background-color:#222222;">
+                    JEUDI
+                    </td>
+                    <td style="color:white; background-color:#222222;">
+                    VENDREDI
+                    </td>
+                    <td style="color:white; background-color:#222222;">
+                    SAMEDI
+                    </td>
+                    <td style="color:white; background-color:#222222;">
+                    DIMANCHE
+                    </td>
+                </tr>
+                <tr >
+                    <td >
+                        VEHICULES DISPONIBLES
+                    </td>
+                    <td >
+                    3
+                    </td>
+                    <td >
+                    3
+                    </td>
+                    <td >
+                    1
+                    </td>
+                    <td style="color:red;">
+                    0
+                    </td>
+                    <td >
+                    1
+                    </td>
+                    <td style="color:red;">
+                    0
+                    </td>
+                    <td >
+                    2
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        RESERVATION 
+                    </td>
+                    <td >
+                        <input type="checkbox"unchecked>
+                    </td>
+                    <td >
+                        <input type="checkbox"unchecked>
+                    </td>
+                    <td >
+                        <input type="checkbox"unchecked>   
+                    </td>
+                    <td >
+                        INDISPONIBLE
+                    </td>
+                    <td >
+                        <input type="checkbox"unchecked>
+                    </td>
+                    <td >
+                        INDISPONIBLE
+                    </td>
+                    <td >
+                        <input type="checkbox"unchecked>
+                    </td>
+                </tr>
+            </table>
+                <a href="./panier.html" id="style-payement" >PAYER</a>
+           </section>
+        <footer>
+            <div id="flex-footer-1">
+                <div id="footer-links">
+                    <p>&copy; Ubisoft Service 2022</p>
+                    <p><a href="https://www.ubisoft.com/fr-fr/">Ubisoft Accueil</a></p>
+                    <p><a href="./condition.html">Conditions d'Utilisation</a></p>
+                </div>
+            </div>
+
+        <div id="flex-footer-2">
+            <h2 id="contact-title">Nous contacter</h2>
+            <div>
+                <form id="flex-contact-form" action="./validation_formulaire.html">
+                    <div class="form-elem">
+                        <label>Nom</label><br>
+                        <input type="text" placeholder="Entrez votre nom">
+                    </div>
+    
+                    <div class="form-elem">
+                        <label>E-mail</label><br>
+                        <input type="email" placeholder="Entrez votre email">
+                    </div>
+    
+                    <div class="form-elem">
+                        <label>Message</label><br>
+                        <textarea placeholder="Entrez votre message" id="textarea-form-contact"></textarea>
+                    </div>
+                    
+                    <div class="form-elem">
+                        <button>Valider</button>
+                    </div>
+                </form>
+        </div>
+    </footer>
+    </body>
+</html>

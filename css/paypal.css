@@ -1,0 +1,41 @@
+section{
+    text-align:center;
+}
+
+
+section>div{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+section>div>input{
+    color:black;
+    background-color:white;
+    border:3px solid #222222;
+    border-radius:2.5rem;
+    padding:10px;
+}
+
+#style-paye{
+  display: inline-block;
+  margin-top: 30px;
+  padding: 20px 125px;
+  background-color: #222222;
+  margin-right:2%;
+  margin-left:2%;
+  color:white;
+  font-weight:bold;
+  border: 3px solid #222222;
+  border-radius: 2.5rem;
+  width:200px;
+  transition:0.5s;
+  margin-bottom:60px;
+  text-decoration:none;
+  content:center;
+}
+
+#style-paye:hover {
+    cursor:pointer;
+    color:#1010d7;
+    background:white;
+}

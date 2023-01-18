@@ -1,0 +1,79 @@
+footer {
+    background-color: #020202;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+#footer-links {
+    margin-top: 15px;
+}
+
+#footer-links p {
+    padding-top: 10px;
+}
+
+footer h2, footer p {
+    color: #fff;
+    font-size:17px;
+}
+
+footer p a {
+    color: #fff;
+    font-size: 17px;
+}
+
+#contact-title {
+    font-size: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-weight:bold;
+}
+
+footer form label {
+    color: #fff;
+    font-size:18px;
+}
+
+#flex-contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#flex-contact-form .form-elem {
+    padding-top: 10px;
+}
+
+#flex-contact-form .form-elem input, #flex-contact-form .form-elem textarea {
+    border: 0;
+    padding: .6180469716em;
+    margin:5px 0px;
+}
+
+#flex-contact-form .form-elem input::placeholder, #flex-contact-form .form-elem textarea::placeholder {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
+    font-size: 16px;
+}
+
+#flex-contact-form .form-elem textarea {
+    width: 400px;
+    height:100px;
+}
+
+#flex-contact-form .form-elem button {
+    border: 0;
+    background-color: #fff;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: .6180469716em 1.41575em;
+    font-size:17px;
+}
+
+#flex-contact-form .form-elem button:hover {
+    cursor: pointer;
+}

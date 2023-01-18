@@ -1,0 +1,46 @@
+nav{
+  position: sticky;
+  top: 0px;
+  z-index:5;
+}
+
+nav table{
+    width:100%;
+    border-collapse: collapse;
+    table-layout:fixed;
+    margin:0px;
+}
+
+nav td{
+    background-color:black;
+    margin:0px;
+    border:0px;
+    padding:20px;
+    text-align:center;
+    font-weight:bold;
+}
+
+nav th{
+    background-color:black;
+    margin:0px;
+    border:0px;
+    padding:20px;
+    text-align:center;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+nav td:hover{
+    background-color:white;
+    transition:0.5s;
+    cursor:pointer;
+}
+
+nav td:hover>p>a{
+    color:black;
+    transition:0.5s;
+}

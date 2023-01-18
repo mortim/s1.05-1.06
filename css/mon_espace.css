@@ -1,0 +1,162 @@
+.lien{
+    text-decoration:none;
+}
+
+section p{
+    font-size:17px;
+}
+
+.historique{
+    visibility: collapse;
+    background: #ddd;
+    opacity: 0;
+    transition: visibility 0s linear 500ms, opacity 500ms;
+}
+
+#expand-historique {
+  display: none;
+}
+
+#style-historique:hover {
+  cursor: pointer;
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+
+#style-historique{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 19px 120px;
+  background-color: #222222;
+  color:white;
+  font-weight:bold;
+  border: 3px solid #222222;
+  border-radius: 1.5rem;
+  width:150px;
+} 
+
+#expand-historique:checked ~ * .historique {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+
+#expand-historique:checked ~ #style-historique {
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+
+.bouton:hover {
+  cursor: pointer;
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+  text-align:center;
+}
+
+.bouton{
+  text-align:center;
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 35px;
+  background-color: #222222;
+  color:white;
+  font-weight:bold;
+  border: 3px solid #222222;
+  border-radius: 1.5rem;
+  width:230px;
+  margin-left:20px;
+  margin-right:20px;
+} 
+
+.bouton:checked ~ .bouton {
+  background-color: white;
+  color:red;
+  transition:0.5s;
+  text-align:center;
+}
+
+.profil{
+    visibility: collapse;
+    background: #ddd;
+    opacity: 0;
+  transition: visibility 0s linear 500ms, opacity 500ms;
+}
+
+#expand-profil {
+  display: none;
+}
+
+#style-profil:hover {
+  cursor: pointer;
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+
+#style-profil{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 19px 120px;
+  background-color: #222222;
+  color:white;
+  font-weight:bold;
+  border: 3px solid #222222;
+  border-radius: 1.5rem;
+  width:150px;
+  margin-left:20px;
+  margin-right:20px;
+} 
+
+#expand-profil:checked ~ * .profil {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+
+#expand-profil:checked ~ #style-profil {
+  background-color: white;
+  color:#222222;
+  transition:0.5s;
+}
+
+section table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:10px;
+    margin-bottom:60px;
+    table-layout:fixed;
+}
+
+section{
+    text-align:center;
+}
+
+section td{
+    margin:0px;
+    border:0px;
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:16px;
+}
+
+section tr.historique:nth-child(n){
+    background-color:white;
+    color:black;
+}
+
+section tr.historique:nth-child(2){
+    background-color:black;
+    color:white;
+    border:solid;
+}
+
+section tr.historique:nth-child(1){
+    background-color:black;
+    color:white;
+    border:solid;
+    padding-bottom:10px;
+}

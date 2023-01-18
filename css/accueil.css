@@ -1,0 +1,57 @@
+.image {
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index:1;
+}
+
+.image p {
+    position: absolute;
+    z-index:2;
+    margin-left: 220px;
+    margin-top: 180px;
+    font-size: 36px;
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+}
+
+#p-image-2 {
+    margin-left: 90px;
+}
+
+.image-article-homepage {
+    height: 430px;
+    width: 100%;
+    filter: brightness(60%);
+    transform:scale(1.2);
+}
+
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-weight:bold;
+    font-size:26px;
+}
+
+h3 {
+    font-size: 21px;
+    color: #016a43;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-weight:bold;
+}
+
+.container>p, .container ul li {
+    margin-top: 15px;
+    font-size: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 200;
+    font-weight:bold;
+}
+
+#list-vehicle {
+    margin-left: 30px;
+    margin-top: 10px;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="UTF-8">
+        <title>Proposer Trajet</title>
+        <link rel="icon" href="./images/logo/logo1.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./css/all.css" />
+        <link rel="stylesheet" href="./css/header.css"/>
+		<link rel="stylesheet" href="./css/nav.css"/>
+        <link rel="stylesheet" href="./css/rechercher-trajet.css"/>
+        <link rel="stylesheet" href="./css/footer.css" />
+    </head>
+    <body>
+        <header>
+        <a id="logo_header" href="./index.html"><img src="./images/logo/logo2.png" alt="Ubisoft_Logo" width="150" height="50"></a>
+		</header>
+		<nav>
+			<table>
+				<tr>
+					<th>
+					</th>
+					<td>
+						<p><a href="./index.html">ACCUEIL</a></p>
+					</td>
+					<td>
+						<p><a href="./connexion.html">MON ESPACE</a></p>
+					</td>
+					<td>
+						<p><a href="./proposer-trajet.html">PROPOSER TRAJET</a></p>
+					</td>
+					<td>
+						<p><a href="./rechercher-un-trajet.html">RECHERCHER TRAJET</a></p>
+					</td>
+					<td>
+						<p><a href="./proposer-moyen-transport.html">PROPOSER LOCATION</a></p>
+						</td>
+					<td>
+						<p><a href="./menu-reservation.html">LOUER VÉHICULE</a></p>
+					</td>
+					<th>
+					</th>
+					<th>
+					</th>
+					<th>
+					</th>
+				</tr>
+			</table>
+		</nav>
+    <div class="container">
+       <h1>Rechercher un trajet</h1>
+       <p id="adress">Adresse Ubisoft Montpellier: <span>85 Rue Didier Daurat, 34170 Castelnau-le-Lez</span></p>
+    </div>
+    <section>
+       <table>
+            <tr style="line-height: 3;font-size:20px;">
+                <td>Nom</td>
+                <td>Jour</td>
+                <td>Heure</td>
+                <td>Point de Départ</td>
+                <td>Point d'Arrivée</td>
+                <td>Place Disponible</td>
+                <td>Prix</td>
+                <td>Réservation</td>
+            </tr>
+            <tr>
+                <td>Jean Dupont</td>
+                <td>17 Novembre</td>
+                <td>19:30</td>
+                <td>19 Rue Du Rigollot,Montpellier, France</td>
+                <td>Ubisoft Montpellier</td>
+                <td>3</td>
+                <td>0€00</td>
+                <td><input type="checkbox"unchecked></td>
+            </tr>
+            <tr>
+                <td>Darcy Lipscombe</td>
+                <td>19 Novembre</td>
+                <td>16:25</td>
+                <td>27 Avenue Mozart,Montpellier, France</td>
+                <td>Ubisoft Montpellier</td>
+                <td>2</td>
+                <td>0€00</td>
+                <td><input type="checkbox"unchecked></td>
+            </tr>
+            <tr>
+                <td>Thurman M. Patterson</td>
+                <td>25 Novembre</td>
+                <td>15:02</td>
+                <td>Ubisoft Montpellier</td>
+                <td>4 Rue De Cherisy,Montpellier, France </td>
+                <td>1</td>
+                <td>0€50</td>
+                <td><input type="checkbox"unchecked></td>
+            </tr>
+
+            <tr>
+                <td>Stephanie Koertig</td>
+                <td>29 Novembre</td>
+                <td>15:02</td>
+                <td>Ubisoft Montpellier</td>
+                <td>24 Rue Jean Bouin,Montpellier, France</td>
+                <td>4</td>
+                <td>1€00</td>
+                <td><input type="checkbox"unchecked></td>
+            </tr>
+       </table>
+   </section>
+   <section class="container">
+       <div class="centre">
+           <a class="style-bouton" href="./panier.html" id="style-payement" >PAYER</a>
+       </div>
+   
+       <br>
+
+       <p id="text-1">Vous n'avez trouvé aucun trajet ? Vous pouvez faire une demande. Les services « Eco Ubisoft » vous répondront au plus vite.</p>
+
+       <br>
+
+        <form id="flex-contact-form-1">
+            <div>
+                <div>
+                    <label>Choisir une date</label><br>
+                    <input type="date">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label>Emplacement</label><br>
+                    <div>
+                        <input type="text" placeholder="Adresse de départ">
+                        <input type="text" placeholder="Adresse d'arrivée">
+                    </div>
+                </div>
+             </div>
+        </form>
+
+        <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=3.9073669910430913%2C43.62130069184638%2C3.9144480228424077%2C43.624500515933235&amp;layer=mapnik" style="border: 1px solid black" width="425" height="350" frameborder="0"></iframe><br><small><a href="https://www.openstreetmap.org/#map=18/43.62290/3.91091">Afficher une carte plus grande</a></small><br><br>
+
+        <p>Vous pouvez consulter toutes les zones de covoiturage juste <a href="./zone_covoiturage.html">ici</a></p>
+        <div class="centre">
+            <a class="style-bouton" href="./validation_rechercher_trajet.html">VALIDER</a>
+        </div>
+
+    </section>
+
+    <footer>
+        <div id="flex-footer-1">
+            <div id="footer-links">
+                <p>&copy; Ubisoft Service 2022</p>
+                <p><a href="https://www.ubisoft.com/fr-fr/">Ubisoft Accueil</a></p>
+                <p><a href="./condition.html">Conditions d'Utilisation</a></p>
+            </div>
+        </div>
+
+        <div id="flex-footer-2">
+            <h2 id="contact-title">Nous contacter</h2>
+            <div>
+                <form id="flex-contact-form" action="./validation_formulaire.html">
+                    <div class="form-elem">
+                        <label>Nom</label><br>
+                        <input type="text" placeholder="Entrez votre nom">
+                    </div>
+    
+                    <div class="form-elem">
+                        <label>E-mail</label><br>
+                        <input type="email" placeholder="Entrez votre email">
+                    </div>
+    
+                    <div class="form-elem">
+                        <label>Message</label><br>
+                        <textarea placeholder="Entrez votre message" id="textarea-form-contact"></textarea>
+                    </div>
+                    
+                    <div class="form-elem">
+                        <button>Valider</button>
+                    </div>
+                </form>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
